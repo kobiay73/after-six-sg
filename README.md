@@ -4,7 +4,14 @@ An editorial Singapore nightlife and dining guide covering date nights, late tab
 
 ## Preview
 
-This is a static HTML website. Open `index.html` locally or upload the repository contents to any static web host. No build step, database, API keys, or server-side runtime is required.
+This is a static HTML website. Open `index.html` locally for a preview. No build step, database, API keys, or server-side runtime is required.
+
+## Production
+
+- Live site: https://aftersixsingapore.com/
+- Hosting: Hostinger Business web hosting
+- This GitHub repository is source control only; GitHub Pages does not host the live domain.
+- Deploy the production HTML, CSS, JavaScript, images, `robots.txt`, and `sitemap.xml` to the Hostinger document root.
 
 ## Pages
 
@@ -12,8 +19,8 @@ This is a static HTML website. Open `index.html` locally or upload the repositor
 - `date-night-chinatown.html` — sample editorial guide
 - `about.html` — publication and editorial policy
 
-## Publishing note
+## SEO status
 
-The client-preview version intentionally contains `noindex,nofollow` metadata and a blocking `robots.txt`. Remove those restrictions before an approved public SEO launch.
+The production pages are indexable and include canonical URLs. `robots.txt` permits crawling and references `sitemap.xml`.
 
-The included editorial images are original AI-generated demo assets.
+Before future editorial releases, verify venue facts, opening hours, disclosures, contact information, and approval of the included AI-generated demo assets.
